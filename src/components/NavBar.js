@@ -60,9 +60,9 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className='social-icon'>
-                            <a href="#"><img src={ navIcon1 } alt="LinkedIn" /></a>
-                            <a href="#"><img src={ navIcon2 } alt="Facebook" /></a>
-                            <a href="#"><img src={ navIcon3 } alt="Instagram" /></a>
+                            <a href="https://www.linkedin.com/in/stevenbarkley/"><img src={ navIcon1 } alt="LinkedIn" /></a>
+                            <a href="https://www.facebook.com/steven.r.barkley"><img src={ navIcon2 } alt="Facebook" /></a>
+                            <a href="https://www.instagram.com/steven_barkley/"><img src={ navIcon3 } alt="Instagram" /></a>
                         </div>
                         <button className='vvd' onClick={ () => console.log( 'connect' ) }><span>Let's Connect</span></button>
                     </span>
