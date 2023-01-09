@@ -70,3 +70,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### `got to get resume prepared`
+
+### `25 skills to focus on for 2023
+
+## `GIT `
+## `User Interface `
+## `User Experience `
+## `Responsive Design `
+## `Mobile First Design `
+## `HTML `
+## `CSS `
+## `JavaSript `
+## `C# `
+## `React `
+## `Node `
+## `Express `
+## `MongaDB `
+## `AWS `
+## `Azure `
+## `Unity3D `
+## `Visual Studio + VScode `
+## `SEO `
+## `Figma `
+## `Adobe Photoshop `
+## `Excel `
+## `SQL/ NOSQL `
+## `Python`
+## `Next.JS`
+## `Google Slides/PP/MIRO `
+
