@@ -41,15 +41,15 @@ export const Projects = () => {
                         <h2>Projects</h2>
                         <p>A simple dog is a simple animal that likes simple food. A complex cat likes complex things in its meal bowl.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-item-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab One</Nav.Link>
+                                    <Nav.Link eventKey="first">User Experience</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                                    <Nav.Link eventKey="second">Web Development</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                                    <Nav.Link eventKey="third">Augmented and Virtual Reality</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
@@ -74,7 +74,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right"> src={ colorSharp2 }</img>
+            <img className="background-image-right" src={ colorSharp2 } alt="Temp Color Text" />
         </section>
     )
 }

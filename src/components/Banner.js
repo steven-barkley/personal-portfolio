@@ -6,17 +6,19 @@ import headerImg from "..//assets/img/header-img.svg";
 export const Banner = () => {
     const [ loopNum, setLoopNum ] = useState( 0 );
     const [ isDeleting, setIsDeleting ] = useState( false );
-    const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+    const toRotate = [ "Web Developer", "Cloud Architect", "UX Designer" ];
     const [ text, setText ] = useState( '' );
     const [ delta, setDelta ] = useState( 300 - Math.random() * 100 );
-    const period = 2000;
+    const period = 800;
 
     useEffect( () => {
         let ticker = setInterval( () => {
             tick();
-        }, delta )
+            //eslint-disable-next-line
+        }, delta );
 
         return () => { clearInterval( ticker ) };
+        // eslint-disable-next-line
     }, [ text ] )
 
     const tick = () => {
@@ -45,9 +47,9 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={ 12 } md={ 6 } xl={ 7 }>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{ `Hi I'm webdecoded` }<span className="wrap">{ text }</span></h1>
-                        <p>This where the about myself goes in. I do money moves and craft inspiring digital products and experiences</p>
+                        <span className="tagline">Steven Reginald Barkley's Portfolio</span>
+                        <h1>{ `I'm a ` }<span className="wrap">{ text }</span></h1>
+                        <p>I am a an Solutions Architect who helps organizations deliver a savvy, impactful and just vision for tomorrow. My belief is UX extends live.</p>
                         <button onClick={ () => console.log( 'connect' ) }>Let's connect <ArrowRightCircle size={ 25 } /></button>
                     </Col>
                     <Col xs={ 12 } md={ 6 } xl={ 5 }>

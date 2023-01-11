@@ -27,7 +27,6 @@ export const Skills = () => {
             items: 1
         }
     };
-
     return (
         <section className="skill" id="skills">
             <Container>
@@ -35,32 +34,33 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                Badges
                             </h2>
-                            <p>Describe your skills ...................................................................<br></br>Describe your brand of work</p>
+                            <p>Below are my badges and professional credentials earned<br></br>These are most effective for Solutions Architect roles</p>
                             <Carousel responsive={ responsive } infinite={ true } className="skill-slider">
                                 <div className="item">
-                                    <img src={ meter1 } alt="Image" />
+                                    <img src={ meter1 } alt="User Experience Skill" />
+                                    <h5>User Experience</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={ meter2 } alt=" web design" />
                                     <h5>Web Development</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={ meter2 } alt="Image" />
-                                    <h5>Brand Identity</h5>
+                                    <img src={ meter3 } alt=" digital" />
+                                    <h5>Mixed Reality</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={ meter3 } alt="Image" />
-                                    <h5></h5>
+                                    <img src={ meter1 } alt=" seo" />
+                                    <h5>Amazon Web Services</h5>
                                 </div>
-                                <div className="item">
-                                    <img src={ meter1 } alt="Image" />
-                                    <h5>Web Development</h5>
-                                </div>
+                                <div data-iframe-width="100" data-iframe-height="180" data-share-badge-id="944835ab-2136-4902-9eff-9c618a2a5ea7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                             </Carousel>
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={ colorSharp } />
+            <img className="background-image-left" src={ colorSharp } alt="XUS" />
         </section>
     )
 }
