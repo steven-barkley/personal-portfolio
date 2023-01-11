@@ -35,7 +35,7 @@ export const Banner = () => {
             setDelta( period );
         } else if ( isDeleting && updatedText === '' ) {
             setIsDeleting( false );
-            setLoopNum( loopNum - 1 );
+            setLoopNum( loopNum + 1 );
             setDelta( 500 );
         }
     }
