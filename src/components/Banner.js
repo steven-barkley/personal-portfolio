@@ -49,7 +49,7 @@ export const Banner = () => {
                     <Col xs={ 12 } md={ 6 } xl={ 7 }>
                         <span className="tagline">Steven Reginald Barkley's Portfolio</span>
                         <h1>{ `I'm a ` }<span className="wrap">{ text }</span></h1>
-                        <p>I am a an Solutions Architect who helps organizations deliver a savvy, impactful and just vision for tomorrow. My belief is UX extends live.</p>
+                        <p>Solutions Architect who helps organizations deliver a savvy, impactful and just vision for tomorrow. My belief is UX extends life.</p>
                         <button onClick={ () => console.log( 'connect' ) }>Let's connect <ArrowRightCircle size={ 25 } /></button>
                     </Col>
                     <Col xs={ 12 } md={ 6 } xl={ 5 }>
