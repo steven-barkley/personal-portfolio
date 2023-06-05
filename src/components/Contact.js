@@ -11,6 +11,7 @@ export const Contact = () => {
         message: ''
     }
 
+
     const [ formDetails, setFormDetails ] = useState( formInitialDetails );
     // eslint-disable-next-line
     const [ buttonText, setButtonText ] = useState( 'Send' );
@@ -23,38 +24,21 @@ export const Contact = () => {
             [ category ]: value
         } )
     }
-    /*       const handleSubmit = () => {
-              e.preventDefault();
-              setButtonText( 'Sending...' );
-              let response = await fetch( "http://localhost:5000/contact", {
-                  method: "POST",
-                  headers: {
-                      "Content-Type": "Application/json;charset=utf-8",
-                  },
-                  body: JSON.stringify( formDetails ),
-              } );
-              setButtonText( "Send" );
-              let result = await response.json();
-              setFormDetails( formInitialDetails );
-              if ( result.code === 200 ) {
-                  setStatus( { success: true, message: "Message sent successfully" } );
-              } else {
-                  setStatus( { success: false, message: "Error something went wrong" } )
-              }
-        */
+
+    const handleSubmit = () => {
+
+    }
 
     return (
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
-
                     <Col md={ 6 }>
-                        <img src={ contactImg } alt="Contact Me" />
+                        <img src={ contactImg } alt="Contact Steven" />
                     </Col>
                     <Col md={ 6 }>
                         <h2>Get in Touch</h2>
-                        {/*  <form onSubmit={ handleSubmit }></form> */ }
-                        <form>
+                        <form onSubmit={ handleSubmit }>
                             <Row>
                                 <Col sm={ 6 } className="px-1">
                                     <input type="text" value={ formDetails.firstName } placeholder="First Name" onChange={ ( e ) => onFormUpdate( 'firstName', e.target.value ) } />
